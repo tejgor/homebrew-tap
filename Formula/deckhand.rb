@@ -1,25 +1,25 @@
 class Deckhand < Formula
   desc "A lightweight agent workbench for your IDE terminal: Claude Code, Codex and Pi sessions in git worktrees"
   homepage "https://github.com/tejgor/deckhand"
-  version "3.4.5"
+  version "3.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tejgor/deckhand/releases/download/v3.4.5/deckhand-aarch64-apple-darwin.tar.xz"
-      sha256 "fdcd8f2d87bf66de0229ab1332cf58448a9bc721484c503a26a62afa8c090e39"
+      url "https://github.com/tejgor/deckhand/releases/download/v3.5.0/deckhand-aarch64-apple-darwin.tar.xz"
+      sha256 "3b15d3ba75961735e8954079555f3586e1654e789b372c96c734af386c630c77"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tejgor/deckhand/releases/download/v3.4.5/deckhand-x86_64-apple-darwin.tar.xz"
-      sha256 "3d25a108cc872f338de7dc6e645f3d177d76cd37c27bc5d8fe0f4fc06d27345b"
+      url "https://github.com/tejgor/deckhand/releases/download/v3.5.0/deckhand-x86_64-apple-darwin.tar.xz"
+      sha256 "0b0bbbac3e5b3cf1a1e0c9da58e24ad0a69020dbf16cdebcf28534ef7c8e0267"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tejgor/deckhand/releases/download/v3.4.5/deckhand-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "35792d147fc8c0270dd8b7e808d32c2f04d896ce4fd41f05ba73baab907b34ab"
+      url "https://github.com/tejgor/deckhand/releases/download/v3.5.0/deckhand-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2ff0e2877721821b249a2fc334d90d0a96bc471e4060c6c3068aca35dd691ae6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tejgor/deckhand/releases/download/v3.4.5/deckhand-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fee97f63181b7281071b09b5d20d244474a592788be78ad3de7c7c82b8535137"
+      url "https://github.com/tejgor/deckhand/releases/download/v3.5.0/deckhand-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "27fc27109b25e8d4d3720cf6cec21bb974e49d322805b72048b0f42afe4afcce"
     end
   end
   license "MIT"
